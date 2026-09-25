@@ -13,6 +13,9 @@ function checkCode() {
     else if (code === 1111) {
         window.location.href = "yeram.html";
     }
+    else if (code === 0329) {
+        window.location.href = "all.html";
+    }
     else {
         document.getElementById("error").textContent =
             "please enter right code";
