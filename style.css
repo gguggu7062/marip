@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'OngleipKonkon';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2412-1@1.0/Ownglyph_corncorn-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -10,7 +17,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    font-family: Arial, sans-serif;
+    font-family: 'OngleipKonkon', sans-serif;
 
     background-color: #fff8fb;
     color: #333;
@@ -46,6 +53,7 @@ input {
 
     padding: 14px 16px;
 
+    font-family: 'OngleipKonkon', sans-serif;
     font-size: 16px;
     text-align: center;
 
@@ -62,7 +70,9 @@ input:focus {
 }
 
 input::placeholder {
+    font-family: 'OngleipKonkon', sans-serif;
     color: #bbb;
+    text-align: center;
 }
 
 button {
