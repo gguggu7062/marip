@@ -13,7 +13,7 @@ function checkCode() {
     else if (code === 1111) {
         window.location.href = "yeram.html";
     }
-    else if (code === 0329) {
+    else if (code === 1303) {
         window.location.href = "all.html";
     }
     else {
